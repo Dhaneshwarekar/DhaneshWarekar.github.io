@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanesh Warekar | IT Student</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================
+         NAVBAR
+         CHANGE: Your initials in nav-logo if needed
+    ===================== -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="nav-logo">&lt; DW /&gt;</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+
+    <!-- =====================
+         HERO SECTION
+         CHANGE: Description line if needed
+    ===================== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+
+            <p class="hero-tag">// Hello World 👋</p>
+
+            <h1 class="hero-name">
+                Dhanesh<br>
+                <span>Warekar</span>
+            </h1>
+
+            <p class="hero-title">
+                BSc IT Student &amp;
+                <span class="highlight-text">Aspiring IT Professional</span>
+            </p>
+
+            <p class="hero-description">
+                Learning technology from zero — building real projects,
+                writing real code, and growing every single day.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">
+                    See My Work →
+                </a>
+                <a href="#contact" class="btn-secondary">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <span>scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+
+    <!-- =====================
+         ABOUT SECTION
+         CHANGE: The paragraph text to describe yourself
+         CHANGE: Stat numbers as you grow
+    ===================== -->
+    <section class="about" id="about">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-tag">// about me</span>
+                <h2 class="section-title">Who I <span>Am</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+
+                <!-- CHANGE: This text to describe yourself -->
+                <div class="about-text reveal">
+                    <p>
+                        I am <span>Dhanesh Warekar</span>, a 3rd year
+                        <span>BSc IT student</span> from Maharashtra, India.
+                        I am passionate about technology and currently
+                        building strong foundations in both
+                        <span>development and operations.</span>
+                    </p>
+                    <p>
+                        I work with <span>Linux, scripting, web technologies
+                        and automation tools</span> — applying what I learn
+                        through real hands-on projects.
+                    </p>
+                    <p>
+                        I am open to any IT opportunity where I can
+                        <span>learn, contribute and grow</span> — whether
+                        in development, operations, support or automation.
+                    </p>
+                </div>
+
+                <!-- CHANGE: Update numbers as you grow -->
+                <div class="about-stats reveal">
+                    <div class="stat-card card-blue">
+                        <div class="stat-number">3rd</div>
+                        <div class="stat-label">Year BSc IT</div>
+                    </div>
+                    <div class="stat-card card-purple">
+                        <!-- UPDATE this after each new project -->
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Project Built</div>
+                    </div>
+                    <div class="stat-card card-green">
+                        <div class="stat-number">7</div>
+                        <!-- UPDATE as you learn new tools -->
+                        <div class="stat-label">Skills Learning</div>
+                    </div>
+                    <div class="stat-card card-orange">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Curiosity</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =====================
+         SKILLS SECTION
+
+         SKILL LEVELS GUIDE:
+         Learning  = just started
+         Familiar  = basic knowledge
+         Confident = can use independently
+
+         TO ADD NEW SKILL:
+         Copy one .skill-item block
+         Change: name, level badge, data-width %
+
+         TO REMOVE SKILL:
+         Delete the entire .skill-item block
+    ===================== -->
+    <section class="skills" id="skills">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-tag">// skills</span>
+                <h2 class="section-title">What I'm <span>Building</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+
+                <!-- CATEGORY 1: Web Basics -->
+                <div class="skill-category reveal">
+                    <h3 class="skill-cat-title">
+                        <i class="fas fa-code"></i> Web Basics
+                    </h3>
+
+                    <!-- HTML -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">HTML</span>
+                                <!-- CHANGE badge: Learning / Familiar / Confident -->
+                                <span class="skill-badge badge-green">Familiar</span>
+                            </div>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <!-- CHANGE data-width to match percentage -->
+                            <div class="skill-fill fill-green" data-width="60"></div>
+                        </div>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-badge badge-green">Familiar</span>
+                            </div>
+                            <span class="skill-percent">55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-green" data-width="55"></div>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-badge badge-yellow">Learning</span>
+                            </div>
+                            <span class="skill-percent">35%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-yellow" data-width="35"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- CATEGORY 2: Linux & Scripting -->
+                <div class="skill-category reveal">
+                    <h3 class="skill-cat-title">
+                        <i class="fab fa-linux"></i> Linux &amp; Scripting
+                    </h3>
+
+                    <!-- Linux -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">Linux / Ubuntu</span>
+                                <span class="skill-badge badge-green">Familiar</span>
+                            </div>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-blue" data-width="60"></div>
+                        </div>
+                    </div>
+
+                    <!-- Bash -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">Bash Scripting</span>
+                                <span class="skill-badge badge-green">Familiar</span>
+                            </div>
+                            <span class="skill-percent">55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-blue" data-width="55"></div>
+                        </div>
+                    </div>
+
+                    <!-- Python -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-badge badge-yellow">Learning</span>
+                            </div>
+                            <span class="skill-percent">30%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-blue" data-width="30"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- CATEGORY 3: Tools -->
+                <div class="skill-category reveal">
+                    <h3 class="skill-cat-title">
+                        <i class="fas fa-tools"></i> Tools
+                    </h3>
+
+                    <!-- Git -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-badge badge-yellow">Learning</span>
+                            </div>
+                            <span class="skill-percent">45%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-purple" data-width="45"></div>
+                        </div>
+                    </div>
+
+                    <!-- GitHub -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">GitHub</span>
+                                <span class="skill-badge badge-yellow">Learning</span>
+                            </div>
+                            <span class="skill-percent">45%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-purple" data-width="45"></div>
+                        </div>
+                    </div>
+
+                    <!-- VS Code -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-left">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-badge badge-green">Familiar</span>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill fill-purple" data-width="70"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =====================
+         PROJECTS SECTION
+
+         TO ADD NEW PROJECT LATER:
+         1. Copy the entire .project-card div block below
+         2. Remove "coming-soon" class
+         3. Remove <span class="badge"> line
+         4. Change: emoji, title, description, tags, GitHub link
+
+         TO UPDATE EXISTING PROJECT:
+         Just change the text inside directly
+    ===================== -->
+    <section class="projects" id="projects">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-tag">// projects</span>
+                <h2 class="section-title">What I've <span>Built</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 — Real project -->
+                <div class="project-card reveal">
+                    <div class="project-icon">🔧</div>
+                    <h3 class="project-title">Automated Backup System</h3>
+                    <p class="project-description">
+                        A Bash script that automatically backs up important
+                        files to timestamped folders. Includes an ON/OFF
+                        switch, cron scheduling for daily automation,
+                        and a complete log history of every backup.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag tag-blue">Linux</span>
+                        <span class="tag tag-green">Bash</span>
+                        <span class="tag tag-purple">Cron</span>
+                        <span class="tag tag-orange">Git</span>
+                    </div>
+                    <!--
+                        CHANGE: Replace # with your actual GitHub project link
+                        Example: href="https://github.com/DhaneshWarekar/devops-projects"
+                    -->
+                    <a href="#" class="project-link" target="_blank">
+                        View on GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- MORE PROJECTS COMING — Add new cards here when ready -->
+                <div class="project-card coming-soon reveal">
+                    <span class="badge">Coming Soon</span>
+                    <div class="project-icon">📊</div>
+                    <h3 class="project-title">More Projects Coming</h3>
+                    <p class="project-description">
+                        Currently learning and building. New projects
+                        will be added here as I complete them.
+                        Check back soon!
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag tag-blue">In Progress</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =====================
+         CONTACT SECTION
+
+         CHANGE EMAIL:
+         Find the line with href="mailto:"
+         Replace with your actual email like:
+         href="mailto:dhanesh@gmail.com"
+         And change the text too
+
+         CHANGE GITHUB:
+         Find href="YOUR_GITHUB_LINK_HERE"
+         Replace with: https://github.com/YourUsername
+
+         CHANGE LINKEDIN:
+         Find href="YOUR_LINKEDIN_LINK_HERE"
+         Replace with: https://linkedin.com/in/yourprofile
+    ===================== -->
+    <section class="contact" id="contact">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-tag">// contact</span>
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-content reveal">
+                <p class="contact-text">
+                    I am a BSc IT student actively looking for
+                    internships and entry level IT opportunities.
+                    I am a fast learner, hardworking and ready
+                    to contribute from day one. Feel free to reach out!
+                </p>
+
+                <div class="contact-links">
+
+                    <!-- EMAIL — CHANGE href and text -->
+                    <a href="dhaneshwarekar10@gmail.com" class="contact-link link-green">
+                        <i class="fas fa-envelope"></i>
+                        <!-- CHANGE: Replace with your email -->
+                        dhaneshwarekar10@gmail.com
+                    </a>
+
+                    <!-- GITHUB — CHANGE href -->
+                    <a href="https://github.com/DhaneshWarekar" class="contact-link link-dark" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+
+                    <!-- LINKEDIN — CHANGE href -->
+                    <a href="YOUR_LINKEDIN_LINK_HERE" class="contact-link link-blue" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =====================
+         FOOTER
+         CHANGE: Year if needed
+    ===================== -->
+    <footer>
+        <p>
+            Dhanesh Warekar · BSc IT Student ·
+            <span>Open to Opportunities</span> · 2026
+        </p>
+    </footer>
+
+    <!-- Your JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
